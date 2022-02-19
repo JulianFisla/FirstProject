@@ -45,5 +45,10 @@ public class Main {
         }
     }
     public static void main(String[] args) {
+<<<<<<< HEAD
+=======
+        System.out.print("skull");
+        System.our.println("WeEE");
+>>>>>>> c360594b456c0895decc2f19cdbf39fb052743ab
     }
 }
