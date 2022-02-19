@@ -13,8 +13,9 @@ public class graphics extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-
-        g.drawRect (250,250,80, 80);
+        int x = 250;
+        int y = 250;
+        g.drawRect (x,y,80, 80);
 
     }
     public static void main(String[] args){
