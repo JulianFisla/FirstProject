@@ -8,6 +8,8 @@ public class Controller {
         System.out.print(x+y);
 
         System.out.print(x * y);
+
+        System.out.print(x % y);
     }
 
 }
