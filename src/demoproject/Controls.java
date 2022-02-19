@@ -16,10 +16,17 @@ public class Controls extends JPanel implements KeyListener {
     public static snakeDirection direction = snakeDirection.East;
 
     public Controls(){
-        setPreferredSize(new Dimension(640,480));
-        setBackground(new Color(250,250,250));
+        setPreferredSize(new Dimension(1280, 720));
+        setBackground(new Color(0, 0, 0));
         this.setFocusable(true);
         addKeyListener(this);
+    }
+
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        int x = 250;
+        int y = 250;
+        g.drawRect (x,y,80, 80);
     }
 
     // KeyListener Methods
@@ -71,7 +78,7 @@ public class Controls extends JPanel implements KeyListener {
             {
                 posy = 380;
             }
-            direction = snakeDirection.South;
+            direction = snakeDirection.West;
             System.out.println(direction);
         }
 

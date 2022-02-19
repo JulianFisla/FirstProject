@@ -16,7 +16,6 @@ public class graphics extends JPanel {
         int x = 250;
         int y = 250;
         g.drawRect (x,y,80, 80);
-
     }
     public static void main(String[] args){
         JFrame newFrame = new JFrame("Snake :)");
