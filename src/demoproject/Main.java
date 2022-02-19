@@ -1,5 +1,6 @@
 package demoproject;
 
+import org.lwjgl.*;
 import java.util.*;
 
 //Main
