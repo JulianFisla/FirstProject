@@ -9,7 +9,7 @@ public class Main {
         System.out.println("EW");
         int theChosenOne = Math.min(8, 5);
 
-        System.out.printf("The chosen number is %1.2d", theChosenOne);
+        System.out.printf("The chosen number is %1d", theChosenOne);
 
 
     }
