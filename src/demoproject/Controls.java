@@ -1,9 +1,8 @@
 package demoproject;
 
-import java.util.*;
-
-public class Main {
+public class Controls {
 
     public static void main(String[] args) {
+
     }
 }
