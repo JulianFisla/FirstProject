@@ -1,4 +1,5 @@
 package demoproject;
+<<<<<<< HEAD
 
 import java.awt.*;
 import javax.swing.*;
@@ -10,6 +11,9 @@ import java.io.*;
 import javax.imageio.ImageIO;
 import java.awt.event.*;
 
+=======
+import java.util.*;
+>>>>>>> 7ad465f6fd9e2d35447069c9f4ed3697a109fb03
 
 //Main
 public class Main {
