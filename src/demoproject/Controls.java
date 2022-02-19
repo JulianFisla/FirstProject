@@ -13,6 +13,7 @@ public class Controls extends JPanel implements KeyListener {
 
     public static int posx = 0;
     public static int posy = 0;
+    public static snakeDirection direction = snakeDirection.East;
 
     public Controls(){
         setPreferredSize(new Dimension(640,480));
@@ -33,6 +34,9 @@ public class Controls extends JPanel implements KeyListener {
             {
                 posx = 540;
             }
+            direction = snakeDirection.East;
+            System.out.println(direction);
+
         }
         //Left Key
         else if (e.getKeyCode()==37 || e.getKeyChar() == 'a')
@@ -43,6 +47,8 @@ public class Controls extends JPanel implements KeyListener {
             {
                 posx = 0;
             }
+            direction = snakeDirection.West;
+            System.out.println(direction);
         }
         //Up Key
         else if (e.getKeyCode()==38 || e.getKeyChar() == 'w')
@@ -53,6 +59,8 @@ public class Controls extends JPanel implements KeyListener {
             {
                 posy = 0;
             }
+            direction = snakeDirection.North;
+            System.out.println(direction);
         }
         //Down Key
         else if (e.getKeyCode()==40 || e.getKeyChar() == 's')
@@ -63,6 +71,8 @@ public class Controls extends JPanel implements KeyListener {
             {
                 posy = 380;
             }
+            direction = snakeDirection.South;
+            System.out.println(direction);
         }
 
     }
