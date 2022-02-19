@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="New folder">
     <CLASSES>
-      <root url="file://$USER_HOME$/Downloads/lwjgl-3.3.0" />
+      <root url="file://$PROJECT_DIR$/src/demoproject/New folder" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$USER_HOME$/Downloads/lwjgl-3.3.0" />
+      <root url="file://$PROJECT_DIR$/src/demoproject/New folder" />
     </NATIVE>
     <SOURCES />
   </library>
