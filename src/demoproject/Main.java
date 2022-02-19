@@ -1,6 +1,8 @@
 package demoproject;
 <<<<<<< HEAD
 
+<<<<<<< HEAD
+=======
 import java.awt.*;
 import javax.swing.*;
 
@@ -15,6 +17,7 @@ import java.awt.event.*;
 import java.util.*;
 >>>>>>> 7ad465f6fd9e2d35447069c9f4ed3697a109fb03
 
+>>>>>>> 4c31b9824fd53e451f406b6d5fdc933df69eb072
 //Main
 public class Main {
     public static int points = 0;
@@ -52,7 +55,11 @@ public class Main {
 <<<<<<< HEAD
 =======
         System.out.print("skull");
+<<<<<<< HEAD
+        System.out.println("WeEE");
+=======
         System.our.println("WeEE");
 >>>>>>> c360594b456c0895decc2f19cdbf39fb052743ab
+>>>>>>> 4c31b9824fd53e451f406b6d5fdc933df69eb072
     }
 }
