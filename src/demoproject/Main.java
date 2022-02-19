@@ -10,6 +10,8 @@ public class Main {
         int theChosenOne = Math.min(8, 5);
 
         System.out.printf("The chosen number is %1d", theChosenOne);
+        
+        // ADRIAN S!!!!
 
 
     }
